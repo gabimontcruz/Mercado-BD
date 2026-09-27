@@ -1,4 +1,4 @@
-# Mercado BD — Etapa 03
+# Mercado BD 
 
 Primeira versão funcional da aplicação do projeto de Banco de Dados, preparada para os requisitos atualizados da Etapa 03.
 
