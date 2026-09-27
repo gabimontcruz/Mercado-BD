@@ -1,0 +1,51 @@
+ETAPA 03 - CHECKLIST FINAL
+
+[OK] Aplicação desktop em Java 17 + Swing
+[OK] Integração MySQL com JDBC
+[OK] SQL explícito no backend com PreparedStatement
+[OK] Nenhum ORM / framework de mapeamento objeto-relacional
+
+CRUD PELA INTERFACE
+[OK] CLIENTE: inserção
+[OK] CLIENTE: alteração
+[OK] CLIENTE: deleção
+[OK] CLIENTE: visualização
+[OK] PRODUTO: inserção
+[OK] PRODUTO: alteração
+[OK] PRODUTO: deleção
+[OK] PRODUTO: visualização
+[OK] FORNECEDOR: inserção
+[OK] FORNECEDOR: alteração
+[OK] FORNECEDOR: deleção
+[OK] FORNECEDOR: visualização
+
+DASHBOARD / ESTATÍSTICA
+[OK] Indicadores de vendas, faturamento, ticket médio e clientes
+[OK] Gráfico de barras - produtos mais vendidos
+[OK] Gráfico de setores - formas de pagamento
+[OK] Série temporal - faturamento diário
+[OK] Histograma/distribuição - vendas por faixa de valor
+
+CONSULTAS
+[OK] 8 consultas executáveis pela interface
+[OK] Consulta 1: JOIN + subconsulta
+[OK] Consulta 2: JOIN + subconsulta
+[OK] Consulta 3: JOIN + subconsulta
+[OK] Consulta 4: JOIN + subconsulta
+[OK] Consulta 5: JOIN + subconsulta
+[OK] Consulta 6: JOIN + subconsulta
+[OK] Consulta 7: JOIN + subconsulta
+[OK] Consulta 8: JOIN + subconsulta
+[OK] SQL documentado em sql/03_consultas.sql
+[OK] Explicação em docs/CONSULTAS_EXPLICADAS.md
+[OK] Matriz de requisitos em docs/MATRIZ_REQUISITOS.md
+
+ANTES DE ENTREGAR
+1. Execute sql/01_criacao_tabelas_mercado.sql no MySQL Workbench.
+2. Execute sql/02_insercao_dados_mercado.sql.
+3. Configure db.user e db.password em src/main/resources/application.properties.
+4. Abra o projeto no IntelliJ usando a pasta que contém pom.xml.
+5. Configure JDK 17 e marque src/main/resources como Resources Root se necessário.
+6. Rode br.com.mercado.Main.
+7. Teste Dashboard, CRUD de Cliente/Produto e as 8 consultas.
+8. Para demonstrar DELETE de produto, cadastre um produto novo e exclua-o; produtos históricos têm FK RESTRICT.
